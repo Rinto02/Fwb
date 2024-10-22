@@ -232,7 +232,6 @@ public class FingerprintProvider implements IBinder.DeathRecipient, ServiceProvi
                     mAuthenticationStatsCollector = collector;
                 });
     }
-        final List<SensorLocationInternal> workaroundLocations = getWorkaroundSensorProps(context);
     private void initSensors(boolean resetLockoutRequiresHardwareAuthToken, SensorProps[] props,
             GestureAvailabilityDispatcher gestureAvailabilityDispatcher) {
         if (Flags.deHidl()) {
