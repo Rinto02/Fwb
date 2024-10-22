@@ -252,11 +252,7 @@ public class FingerprintProvider implements IBinder.DeathRecipient, ServiceProvi
                 }
             }
         } else {
-<<<<<<< HEAD
-=======
-
->>>>>>> 5e76a1313dac (fixup! biometrics: Allow to disable unused fingerprints cleanup)
-            final List<SensorLocationInternal> workaroundLocations =
+		final List<SensorLocationInternal> workaroundLocations =
                     getWorkaroundSensorProps(mContext);
 
             for (SensorProps prop : props) {
